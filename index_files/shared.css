@@ -76,8 +76,7 @@ header > hgroup > h1 {
 .buttonish-links > a {
  padding: 10px;
  text-align: center;
- border: 8px solid rgba(58, 121, 8, 0.2);
- background: linear-gradient(var(--whatwggreen), #00981B);
+ border: 8px solid rgba(102, 102, 102, 0.2);
  background-clip: padding-box;
  text-decoration: none;
  color: white;
@@ -86,6 +85,18 @@ header > hgroup > h1 {
  margin-left: var(--space-between);
  margin-right: var(--space-between);
  flex: 1;
+}
+
+.buttonish-links a:nth-child(2) {
+ background: #FF0000;
+}
+
+.buttonish-links a:nth-child(3) {
+ background: #FF5C01;
+}
+
+.buttonish-links a:nth-child(4) {
+ background: #FFB100;
 }
 
 @media (max-width: 600px) {
